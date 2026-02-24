@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:rgb(68, 0, 68);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin: 10px;
+}   
+nav a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold  ;
+}
+nav a:hover{
+    color: #333;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image:url(img1.jpg)
+   
+}
+
+div{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+p{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    position: absolute;
+    top:750px ;
+    left:300px;
+    
+}
+#explore{
+    font-size: 100px;
+    color: #ffffff;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    margin-bottom: 20px;
+    line-break: 20px;
+}
+#exploreBtn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 800px;
+    left: 300px;
+}
+#FirstText{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#searchInput{
+    
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+#searchBtn{
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#resetBtn{
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#abtus{
+    font-size: 70px;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    margin-bottom: 10px;
+}
+#text2{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    position: absolute;
+    top:300px;
+    background-color: rgba(0, 0, 0, 0.363);
+    
+}
+#team{
+    font-size: 70px;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+.team-section{
+    display: flex;
+    gap: 90px;
+    position:absolute;
+    top: 500px;
+    right: 300px;
+   
+}
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    gap: 30px;
+}
+.card {
+    
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    border: 2px solid red;
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card button {
+    background: #b526c2;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
