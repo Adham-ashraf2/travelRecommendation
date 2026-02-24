@@ -90,6 +90,9 @@ p{
     border-radius: 20px;
     cursor: pointer;
 }
+#searchBtn:hover{
+    background-color: #555;
+}   
 #resetBtn{
     padding: 15px 20px;
     background-color: #333;
@@ -99,6 +102,9 @@ p{
     cursor: pointer;
     margin-left: 10px;
 }
+#resetBtn:hover{
+    background-color: #555;
+}   
 #abtus{
     font-size: 70px;
     color: #ffffff;
@@ -153,7 +159,7 @@ p{
     color: white;
     text-align: center;
     backdrop-filter: blur(8px);
-    border: 2px solid red;
+    
 }
 
 .icon {
@@ -167,4 +173,49 @@ p{
     border-radius: 5px;
     color: white;
     cursor: pointer;
+}
+.card button:hover {
+    background: #9e1fa0;
+}
+#contact{
+    font-size: 70px;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+label{
+    font-size: 30px;
+    color: #ffffff;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 2px solid #4e0707;
+    border-radius: 5px;
+    width: 800px;
+    background-color: #750b6775;
+}
+
+input, textarea {
+    color: #f831ff;
+}
+.contact-form button {
+    background: #b526c2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #9e1fa0;
 }
